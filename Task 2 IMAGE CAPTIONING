@@ -40,10 +40,3 @@ def create_captioning_model(vocab_size, max_length):
     model = Model(inputs=[input1, input2], outputs=output)
     model.compile(loss='categorical_crossentropy', optimizer='adam')
     return model
-
-# Example usage
-image_path = 'path_to_your_image.jpg'
-features = extract_features(image_path)
-# Assume captions and vocab_size, max_length are defined
-# model = create_captioning_model(vocab_size, max_length)
-# Generate captions using the model (not shown here)
