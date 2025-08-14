@@ -5,7 +5,7 @@ def chatbot_response(user_input):
     elif "how are you" in user_input:
         return "I'm just a computer program, but thanks for asking! How can I help you?"
     elif "what is your name" in user_input:
-        return "I am a simple rule-based chatbot created to assist you."
+        return "I am a CHATBOT."
     elif "help" in user_input:
         return "Sure! What do you need help with?"
     elif "bye" in user_input or "exit" in user_input:
