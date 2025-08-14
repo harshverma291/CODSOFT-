@@ -1,6 +1,5 @@
 import math
 
-# Constants for the game
 EMPTY = ' '
 PLAYER_X = 'X'
 PLAYER_O = 'O'
@@ -16,7 +15,6 @@ class TicTacToe:
             print('-' * 5)
 
     def is_winner(self, player):
-        # Check rows, columns, and diagonals for a win
         for row in range(3):
             if all([cell == player for cell in self.board[row]]):
                 return True
